@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<style>
+
+container {
+	background-color: lightgrey;
+}
+
+	.box {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 600;
+  color: #fff;
+  
+  
+  background-color: lightgrey;
+min-height: 600px;
+overflow: scroll;
+
+}
+
+.box1 {
+	top: 20px;
+	position: absolute;
+  background: white;
+  width:600px;
+  padding: 20px 20px;
+  /*margin: 20px;*/
+  max-height: 100%;
+  color: grey;
+  left: 20px;
+
+}
+
+.box2 {
+	top: 20px;
+	position: absolute;
+	background: white;
+  width:550px;
+  /*margin: 20px;*/
+  
+  padding: 20px;	
+  left: 650px;
+  min-height: 400px;
+  color: grey;
+}
+
+footer {
+	text-align: center;
+}
+
+p {
+	font-size: 90%;
+}
+</style>
+</head>
+<body>
+
+<!navbar setup>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><strong> Latitude</strong></a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      
+      <li class="dropdown" class="active">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Homework.html">Max Temperature</a></li>
+          <li><a href="Humidity.html">Humidity</a></li>
+          <li><a href="Cloudiness.html">Clouiness</a></li>
+          <li><a href="Windspeed.html">Windspeed</a></li>
+        </ul>
+      </li>
+
+
+      
+      <li><a href="DataComp.html">Comparision</a></li>
+      <li><a href="Data.html">Data</a></li>
+    </ul>
+  </div>
+</nav>
+<!navbar Setup COMPLETE>
+
+<br>
+<br>
+
+<div class="box">
+
+	
+	<div class="box1">
+		<h1>Summary: Humidity</h1> <br><hr>
+		<div class="col-xs-12 col-md-8 col-lg-11">
+				<p>
+
+				<a href="Humidity.html"><img src="Fig2.png" style="float:left;width:350px;height:300px;"></a>
+				The purpose of this project was to analyze how weather changes as you get closer to the equator. To reach this analysis, data was first pulled from OpenWeather API to assemble a database of over randomly selected 500 cities.
+		        <br />
+		        <br />
+		        After assembling the dataset, After assmembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:
+		        temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualization created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.  
+				</p>
+		</div>
+		
+	</div>
+
+  <div class="box2">
+    <h2> Vizualizations</h2> <hr>
+    
+    <a href="Homework.html"><img src="Fig1.png" style="float:left;width:250px;height: 200px;"></a>
+    <a href="Humidity.html"><img src="Fig2.png" style="float:right;width:250px;height: 200px;top: 60px"></a>
+    <a href="Cloudiness.html"><img src="Fig3.png" style="float:left;width:250px;height: 200px;"></a>
+    <a href="Windspeed.html"><img src="Fig4.png" style="float:right;width:250px;height: 200px;top: 260px;"></a>
+
+  </div>
+	<!-- <div class="box2"> 
+		<P><strong> Box 2	</strong></P>
+	</div> -->
+
+
+</div>
+
+
+<!-- <div class="box skyblue">
+<div class="container">
+	<h1>Welcome</h1> <br>
+	<div class="col-xs-12 col-md-7 col-lg-7">
+		<h1 class="text-danger"> Summary: Lat </h1>
+	</div>
+</div>
+</div> -->
+
+
+
+
+
+
+<!code try>
+
+
+
+
+<!Code Try>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<footer>Copyright &copy; Chander Viswanathan</footer>
+</html>
